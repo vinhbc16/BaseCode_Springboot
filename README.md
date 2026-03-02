@@ -253,9 +253,21 @@ public class OrderServiceImpl implements OrderService {
 - [ ] **Logging** — SLF4J + cấu hình log level
 - [ ] **Caching** — Spring Cache + Redis
 - [ ] **Unit Tests + Integration Tests** — JUnit 5 + Mockito
+- [ ] **CI/CD** — GitHub Actions / Jenkins pipeline
+- [ ] **Monitoring** — Micrometer + Prometheus + Grafana
+- [ ] **Distributed Tracing** — Spring Cloud Sleuth + Zipkin
+- [ ] **Event-driven architecture** — Spring Events / Kafka
+- [ ] **GraphQL** — Spring GraphQL
+- [ ] **gRPC** — Spring gRPC starter
+- [ ] **WebSocket** — Spring WebSocket
+- [ ] **Rate Limiting** — Bucket4j / Spring Cloud Gateway
+- [ ] **API Versioning** — URL versioning / Header versioning
+- [ ] **Internationalization (i18n)** — Spring MessageSource
+- [ ] **Feature Flags** — Togglz / Unleash
+- [ ] **Code Quality** — SonarQube / Checkstyle
+- [ ] **Security Hardening** — OWASP best practices
+- [ ] **Performance Optimization** — Caching, DB indexing, async processing
+- [ ] **Cloud Deployment** — AWS / Azure / GCP
+- [ ] **Microservices** — Spring Cloud / Kubernetes
+- [ ] **Serverless** — Spring Cloud Function + AWS Lambda
 
----
-
-## License
-
-Private project.
