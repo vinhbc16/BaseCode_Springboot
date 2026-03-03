@@ -236,10 +236,9 @@ Dùng `Pageable` parameter + `PageResponse` wrapper. Spring tự parse query par
 #### 7. Quan hệ giữa các Feature
 Nếu feature A cần dùng data của feature B, inject **Service** (không inject Repository trực tiếp):
 ```java
-// ✅ ĐÚNG - inject service
 @RequiredArgsConstructor
 public class OrderServiceImpl implements OrderService {
-    private final UserService userService;  // Dùng service của feature khác
+    private final UserService userService;  
 }
 ```
 
@@ -270,4 +269,5 @@ public class OrderServiceImpl implements OrderService {
 - [ ] **Cloud Deployment** — AWS / Azure / GCP
 - [ ] **Microservices** — Spring Cloud / Kubernetes
 - [ ] **Serverless** — Spring Cloud Function + AWS Lambda
+
 
