@@ -269,5 +269,6 @@ public class OrderServiceImpl implements OrderService {
 - [ ] **Cloud Deployment** — AWS / Azure / GCP
 - [ ] **Microservices** — Spring Cloud / Kubernetes
 - [ ] **Serverless** — Spring Cloud Function + AWS Lambda
+- [ ] **GraphQL** — Spring GraphQL
 
 
